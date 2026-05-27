@@ -93,8 +93,9 @@ ETL run logs stored in etl_logs table (timestamp, table name, status, record cou
 TableKey Columnsproductsid, title, price, category, rating, rating_count, source_apiusersid, username, email, phone, cityordersid, user_id, total_price, products_count, source_apietl_logsid, run_time, table_name, status, records
 
 🎛️ Interactive CLI Menu
+
 ╔══════════════════════════════════════════╗
-║    E-Commerce Analytics Engine          ║
+║    E-Commerce Analytics Engine           ║
 ╠══════════════════════════════════════════╣
 ║  1. ETL Run      (APIs → Database)       ║
 ║  2. Report Gen   (Database → CSV/JSON)   ║
