@@ -125,33 +125,6 @@ To build a robust and automated e-commerce analytics engine that:
 
 • Provides a scheduler for fully automated, hands-off daily pipeline runs
 
-
-📂 **Project Structure**
-
-ecommerce_analytics/
-│
-├── main.py                        # CLI entry point & scheduler
-├── config.py                      # DB config & API base URLs
-├── requirements.txt               # requests, pandas, mysql-connector, schedule
-│
-├── api/
-│   ├── fetch_products.py          # FakeStore + DummyJSON product fetchers
-│   └── fetch_users.py             # FakeStore + JSONPlaceholder user & cart fetchers
-│
-├── database/
-│   ├── db_connection.py           # MySQL connection manager
-│   └── schema.sql                 # Table definitions (products, users, orders, logs)
-│
-├── services/
-│   ├── analytics_service.py       # KPI query functions (revenue, category stats, etc.)
-│   └── etl_service.py             # Full ETL orchestration (extract → transform → load)
-│
-├── reports/
-│   └── report_generator.py        # CSV + JSON export & console summary printer
-│
-├── exports/                       # Auto-generated daily report files
-└── logs/                          # ETL run logs directory
-
 📂 **Data Sources**
 
 External REST APIs (Public / Free)
