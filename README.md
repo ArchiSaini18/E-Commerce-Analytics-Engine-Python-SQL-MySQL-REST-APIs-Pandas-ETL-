@@ -166,6 +166,9 @@ Includes:
 • Multi-source tagging (source_api field for traceability)
 
 API                        Data
+
 FakeStoreAPI           Products, Users, Carts
+
 DummyJSON              Extended product catalog
+
 JSONPlaceholder        Additional user data
