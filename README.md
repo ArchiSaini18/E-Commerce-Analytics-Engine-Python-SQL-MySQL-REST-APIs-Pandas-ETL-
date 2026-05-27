@@ -11,6 +11,7 @@ An interactive and insight-driven e-commerce analytics pipeline built using Pyth
 •The system highlights key metrics such as total products, total users, total orders, revenue, and category-level breakdowns, while generating exportable CSV and JSON reports for use in dashboards or further analysis.
 
 💻 **SQL Analysis & Data Processing**
+
 Structured and executed SQL queries to transform raw API data into meaningful business insights, supporting report generation and decision-making.
 
 Key Contributions:
@@ -59,6 +60,7 @@ Key Contributions:
 
 
 🔄 **ETL Pipeline Architecture**
+
 Extract →
 
 • fetch_fakestore_products() — Pulls all products from FakeStore REST API
@@ -87,6 +89,7 @@ ETL run logs stored in etl_logs table (timestamp, table name, status, record cou
 
 
 🗄️ **Database Schema**
+
 TableKey Columnsproductsid, title, price, category, rating, rating_count, source_apiusersid, username, email, phone, cityordersid, user_id, total_price, products_count, source_apietl_logsid, run_time, table_name, status, records
 
 🎛️ Interactive CLI Menu
@@ -101,6 +104,7 @@ TableKey Columnsproductsid, title, price, category, rating, rating_count, source
 ╚══════════════════════════════════════════╝
 
 🌟 **Features**
+
 📈 Business Impact & Insights
 
 • 💰 Revenue Tracking — Monitor total order value and identify high-revenue product categories
@@ -117,6 +121,7 @@ TableKey Columnsproductsid, title, price, category, rating, rating_count, source
 
 
 🎯 **Goal of the Project**
+
 To build a robust and automated e-commerce analytics engine that:
 
 • Fetches and unifies product, user, and order data from multiple APIs
@@ -131,6 +136,7 @@ To build a robust and automated e-commerce analytics engine that:
 
 
 📂 **Project Structure**
+
 ecommerce_analytics/
 │
 ├── main.py                        # CLI entry point & scheduler
@@ -156,6 +162,7 @@ ecommerce_analytics/
 └── logs/                          # ETL run logs directory
 
 📂 **Data Sources**
+
 External REST APIs (Public / Free)
 Includes:
 
