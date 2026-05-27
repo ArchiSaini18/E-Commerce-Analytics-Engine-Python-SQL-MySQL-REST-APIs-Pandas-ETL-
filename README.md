@@ -4,11 +4,11 @@ An interactive and insight-driven e-commerce analytics pipeline built using Pyth
 
 📄 **Description**
 
-•This analytics engine provides a comprehensive overview of e-commerce operations by analyzing product catalogs, user profiles, cart/order data, and category trends.
+• This analytics engine provides a comprehensive overview of e-commerce operations by analyzing product catalogs, user profiles, cart/order data, and category trends.
 
-•Python was used to extract data from multiple public REST APIs (FakeStore API, DummyJSON, JSONPlaceholder), transform and clean it, and load it into a structured MySQL database — a complete ETL pipeline.
+• Python was used to extract data from multiple public REST APIs (FakeStore API, DummyJSON, JSONPlaceholder), transform and clean it, and load it into a structured MySQL database — a complete ETL pipeline.
 
-•The system highlights key metrics such as total products, total users, total orders, revenue, and category-level breakdowns, while generating exportable CSV and JSON reports for use in dashboards or further analysis.
+• The system highlights key metrics such as total products, total users, total orders, revenue, and category-level breakdowns, while generating exportable CSV and JSON reports for use in dashboards or further analysis.
 
 💻 **SQL Analysis & Data Processing**
 
