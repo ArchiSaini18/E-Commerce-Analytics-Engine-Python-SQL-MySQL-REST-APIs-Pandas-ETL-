@@ -1,4 +1,6 @@
 🛒 **E-COMMERCE ANALYTICS ENGINE (Using SQL, Python & MySQL)**
+
+
 An interactive and insight-driven e-commerce analytics pipeline built using Python, SQL (MySQL), and Pandas to monitor product data, user behavior, order performance, and revenue insights — enabling smarter, data-driven business decisions for online retail.
 
 📄 **Description**
