@@ -90,7 +90,7 @@ ETL run logs stored in etl_logs table (timestamp, table name, status, record cou
 
 🗄️ **Database Schema**
 
-TableKey Columnsproductsid, title, price, category, rating, rating_count, source_apiusersid, username, email, phone, cityordersid, user_id, total_price, products_count, source_apietl_logsid, run_time, table_name, status, records
+TableKey Columns productsid, title, price, category, rating, rating_count, source_apiusersid, username, email, phone, cityordersid, user_id, total_price, products_count, source_apietl_logsid, run_time, table_name, status, records
 
 🎛️ Interactive CLI Menu
 
